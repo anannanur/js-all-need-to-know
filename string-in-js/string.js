@@ -50,3 +50,20 @@ console.log(c.toLowerCase())
 console.log('    sughlshioh   ')
 console.log('    sughlshioh   '.trim())
 console.log(c.split(' '))
+
+
+var str = 'HN Ananna';
+var length = 0;
+while(true){
+    if(str.charAt(length) == ''){
+        break
+    }
+    else{
+        length++
+    }
+}
+console.log(length)
+
+console.log(str.length);
+
+console.log('Humayra'.length);
